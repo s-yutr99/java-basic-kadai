@@ -9,11 +9,11 @@ abstract public class Kato_Chapter18 {
 		System.out.println("住所は" + address + "です");
 	}
 	
-	abstract  void eachlntroduce();
+	abstract  void eachIntroduce();
 	
 	public void execIntroduce() {
 		System.out.println("名前は" + familyname + givenName + "です");
 		commonlntroduce();
-		eachlntroduce();
+		eachIntroduce();
 	}
 }
